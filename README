@@ -1,0 +1,26 @@
+git clone rails from github
+instalar o Rails 3.1
+criar Gemfile
+Criar a aplicação com Bundle
+da pasta do rails, bundle exec ./bin/rails new ../path/url-shoten -d mysql 
+entrar na pasta da aplicação
+scaffold shorten  address:string short:string user_id:integer
+rake db:create  
+rake db:migrate
+editar routes.rb definir short para root
+...
+ajustar crud
+remover campo short e user_id
+
+incluiu validação de presença para address
+
+incluir na gem base58 no Gemfile
+
+incluir a linha:
+ @shoten.make_shorten
+antes de @shoten.save
+
+criar método make_shorten no modelo
+
+salvar url
+

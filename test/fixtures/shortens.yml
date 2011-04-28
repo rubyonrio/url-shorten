@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/Fixtures.html
+
+one:
+  address: MyString
+  short: MyString
+  user_id: 
+
+two:
+  address: MyString
+  short: MyString
+  user_id: 
